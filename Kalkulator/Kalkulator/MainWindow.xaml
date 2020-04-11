@@ -1,0 +1,50 @@
+﻿<Window x:Class="Kalkulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kalkulator"
+        mc:Ignorable="d"
+        Title="Kalkulator" Height="500" Width="400" ResizeMode="NoResize" Keyboard.KeyDown="keyDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Background="AntiqueWhite" Grid.ColumnSpan="4" Grid.RowSpan="2">
+            <TextBlock TextAlignment="Right" x:Name="memoryBlock_blck" FontSize="20" VerticalAlignment="Center" Margin="10,10,10,0" Height="50"/>
+            <TextBlock TextAlignment="Right" x:Name="actualBlock_blck" FontSize="45" VerticalAlignment="Center" Margin="10,0,10,0"/>
+        </StackPanel>
+        <Button Grid.Row="2" Grid.Column="0" Content="CE" Margin="1" Background="LightGray" FontSize="20" Click="buttonClicked" x:Name="CE"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="C" Margin="1" Background="LightGray" FontSize="20" Click="buttonClicked" x:Name="C"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="⌫" Margin="1" Background="LightGray" FontSize="20" Click="buttonClicked" x:Name="Backspace"/>
+        <Button Grid.Row="2" Grid.Column="3" Content="÷" Margin="1" Background="LightGray" FontSize="20" Click="buttonClicked" x:Name="Divide"/>
+        <Button Grid.Row="3" Grid.Column="0" Content="7" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D7"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="8" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D8"/>
+        <Button Grid.Row="3" Grid.Column="2" Content="9" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D9"/>
+        <Button Grid.Row="3" Grid.Column="3" Content="×" Margin="1" Background="LightGray" FontSize="20" Click="buttonClicked" x:Name="Multiply"/>
+        <Button Grid.Row="4" Grid.Column="0" Content="4" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D4"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="5" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D5"/>
+        <Button Grid.Row="4" Grid.Column="2" Content="6" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D6"/>
+        <Button Grid.Row="4" Grid.Column="3" Content="-" Margin="1" Background="LightGray" FontSize="20" Click="buttonClicked" x:Name="Subtract"/>
+        <Button Grid.Row="5" Grid.Column="0" Content="1" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D1"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="2" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D2"/>
+        <Button Grid.Row="5" Grid.Column="2" Content="3" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D3"/>
+        <Button Grid.Row="5" Grid.Column="3" Content="+" Margin="1" Background="LightGray" FontSize="20" Click="buttonClicked" x:Name="Add"/>
+        <Button Grid.Row="6" Grid.Column="0" Content="+/-" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="ChangeSign"/>
+        <Button Grid.Row="6" Grid.Column="1" Content="0" Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="D0"/>
+        <Button Grid.Row="6" Grid.Column="2" Content="," Margin="1" Background="White" FontSize="20" Click="buttonClicked" x:Name="Comma"/>
+        <Button Grid.Row="6" Grid.Column="3" Content="=" Margin="1" Background="Violet" FontSize="20" Click="buttonClicked" x:Name="Equal"/>
+    </Grid>
+</Window>
