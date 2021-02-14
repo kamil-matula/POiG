@@ -1,0 +1,6 @@
+C:\Users\mkami\Desktop\Repozytoria\POiG\MiniTC\obj\Release\MiniTC.csprojAssemblyReference.cache
+C:\Users\mkami\Desktop\Repozytoria\POiG\MiniTC\obj\Release\MainWindow.g.cs
+C:\Users\mkami\Desktop\Repozytoria\POiG\MiniTC\obj\Release\App.g.cs
+C:\Users\mkami\Desktop\Repozytoria\POiG\MiniTC\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\mkami\Desktop\Repozytoria\POiG\MiniTC\obj\Release\MiniTC_MarkupCompile.cache
+C:\Users\mkami\Desktop\Repozytoria\POiG\MiniTC\obj\Release\MiniTC_MarkupCompile.lref

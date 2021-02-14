@@ -9,3 +9,10 @@ C:\Users\mkami\Desktop\Programowanie obiektowe i graficzne\Egzamin teoretyczny\A
 C:\Users\mkami\Desktop\Programowanie obiektowe i graficzne\Egzamin teoretyczny\Autorski mini-projekt\obj\Debug\GameWorldBuilder.csprojAssemblyReference.cache
 C:\Users\mkami\Desktop\Programowanie obiektowe i graficzne\Egzamin teoretyczny\Autorski mini-projekt\obj\Debug\GameWorldBuilder.exe
 C:\Users\mkami\Desktop\Programowanie obiektowe i graficzne\Egzamin teoretyczny\Autorski mini-projekt\obj\Debug\GameWorldBuilder.pdb
+C:\Users\mkami\Desktop\Repozytoria\POiG\GameWorldBuilder\bin\Debug\GameWorldBuilder.exe.config
+C:\Users\mkami\Desktop\Repozytoria\POiG\GameWorldBuilder\bin\Debug\GameWorldBuilder.exe
+C:\Users\mkami\Desktop\Repozytoria\POiG\GameWorldBuilder\bin\Debug\GameWorldBuilder.pdb
+C:\Users\mkami\Desktop\Repozytoria\POiG\GameWorldBuilder\obj\Debug\GameWorldBuilder.csprojAssemblyReference.cache
+C:\Users\mkami\Desktop\Repozytoria\POiG\GameWorldBuilder\obj\Debug\GameWorldBuilder.csproj.CoreCompileInputs.cache
+C:\Users\mkami\Desktop\Repozytoria\POiG\GameWorldBuilder\obj\Debug\GameWorldBuilder.exe
+C:\Users\mkami\Desktop\Repozytoria\POiG\GameWorldBuilder\obj\Debug\GameWorldBuilder.pdb
